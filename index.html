@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Leonardo's Shop</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Leonardo's Shop</h1>
+    <div>
+      <h3>Horse Sweatshirt</h3>
+        <p>Frolick through the pyramids of your mind in this vintage receation</p>
+          <img src="img/horses.jpg">
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="name">Your Full Name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="address">Adress</label>
+          <input id="address" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="size">your size: S-XL</label>
+          <input id="size" class="form-control" type="text">
+        </div>
+      
+        <button type="submit" class="btn">Purchase Now!</button>
+      </form>
+    </div>
+
+    <div id="reciept">
+      <h1>Thank you for your order!</h1>
+      <p>
+        We will ship within 3-5 buisness days to: <span class="name"></span> Address: <span class="address"></span> size: <span class="size"></span>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
